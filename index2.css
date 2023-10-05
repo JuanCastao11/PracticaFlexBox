@@ -8,6 +8,9 @@
     width: 100%;
     height: 50vh;
     background-color: rgb(84, 9, 94);
+   
+    
+    
   
 }
 .section2{
@@ -15,6 +18,8 @@
     width: 100%;
     height: 50vh;
     background-color: rgb(84, 9, 94);
+
+    
   
 }
 .sub1{
@@ -38,6 +43,7 @@
     justify-content: center;
     border: solid;
     padding: 20px;
+    align-items: center;
 }
 .sub4{
     display: flex;
@@ -45,6 +51,7 @@
     justify-content: center;
     border: solid;
     padding: 20px;
+    align-items: stretch;
 }
 .con1{
     width: 20%;
@@ -52,6 +59,7 @@
     border-radius: 15px;
     margin: 5px;
     height: 200px;
+    
 }
 .con2{
     width: 20%;
@@ -80,12 +88,14 @@
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+    height: 150px;
 }
 .con6{
     width: 20%;
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+    height: 200px;
 
 }
 .con7{
@@ -93,24 +103,28 @@
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+    height: 80px;
 }
 .con8{
     width: 20%;
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+    height: 170px;
 }
 .con9{
     width: 20%;
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+    height: 250px;
 }
 .con10{
     width: 20%;
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+    height: 350px;
 
 }
 .con11{
@@ -118,12 +132,14 @@
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+    height: 150px;
 }
 .con12{
     width: 20%;
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+    height: 220px;
 }
 .con13{
     width: 20%;
@@ -149,4 +165,25 @@
     background-color: orange;
     border-radius: 15px;
     margin: 5px;
+}
+@media only screen and (max-width: 600px){
+    .section1, .section2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub1,.sub2,.sub3,.sub4{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .con1,.con2,.con3,.con4{
+        display: flex;
+        justify-content: center;
+    }
+
+    .con5,.con6,.con7,.con8{
+    height:100px;
+}
 }
